@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+
+.header{
+    background-color: #DEDBDB;
+    height: 140px;
+    margin-bottom: 66px;
+}
+
+.karobkaa{
+    display: flex;
+    align-items: center;
+}
+
+.opt{
+    font-family: "Inter";
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+color: #424242;
+border: none;
+background-color: transparent;
+transition: 0.3s;
+}
+
+.opt:hover{
+    color: black;
+}
+
+.box2{
+    width: 650px;
+    height: 786px;
+    background-color: #DEDBDB;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0 60px;
+    padding-top: 66px;
+}
+
+.header_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    color: #F0400F;
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+background-color: transparent;
+border: none;
+transition: 0.3s;
+}
+.btn:hover{
+    color: greenyellow;
+}
+
+h1{
+    font-family: "Inter";
+font-weight: 700;
+font-size: 48px;
+color: #0E0D5D;
+text-align: center;
+margin-top: 127px;
+}
+
+.div{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 70px;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 8px 11px;
+}
+
+.divv{
+    background-color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 28px;
+    border-radius:20px;
+    width: 50%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divvv{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 28px;
+    color: #757575;
+    width: 50%;
+    text-align: center;
+}
+
+#Login{
+    width: 533px;
+    height: 70px;
+    font-family: Inter;
+font-weight: 500;
+font-size: 24px;
+border-radius: 10px;
+border: none;
+margin-top: 40px;
+padding-left: 50px;
+}
+
+#parol{
+    width: 533px;
+    height: 70px;
+    font-family: Inter;
+font-weight: 500;
+font-size: 24px;
+border-radius: 10px;
+border: none;
+margin-top: 40px;
+padding-left: 50px;
+}
+
+#form{
+    margin: 0 auto;
+}
+
+
+h3{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000A3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#bttn{
+    width: 202px;
+    height: 67px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #F69E86;
+    margin-left: 350px;
+    margin-top: 31px;
+}
+
+.active{
+    background-color: #F0400F;
+}
